@@ -1,0 +1,138 @@
+/* ------ All ------ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: TS-Reg;
+  font-weight: bold;
+}
+
+/* ---------------- */
+
+/* --- Container --- */
+
+.container {
+  width: 1094px;
+  margin: auto;
+  height: 65px;
+}
+
+/* ---------------- */
+
+/* ---- Header ---- */
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+  margin: auto;
+}
+
+header img {
+  width: 190px;
+  object-fit: cover;
+}
+
+menu {
+  display: flex;
+  gap: 20px;
+}
+
+.bouton-menu {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.bouton-connexion {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.bouton-connexion:hover {
+  background-color: #4c4c4c;
+}
+
+.bouton-menu:hover {
+  background-color: #f2f2f2;
+  border-radius: 30px;
+}
+
+/* ------ Main ------ */
+
+main {
+  margin: 30px 0px;
+}
+
+h1 {
+  font-family: TS-Med;
+  font-size: 54px;
+  font-weight: 500;
+}
+
+h1 span {
+  color: #ff5d5d;
+}
+
+.baseline {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.baseline a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+nav {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bouton-navigation {
+  box-sizing: border-box;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  border: solid black 1px;
+  width: 162px;
+  height: 64px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.bouton-navigation:hover {
+  background-color: black;
+  color: white;
+}
+
+.photos {
+  display: flex;
+  height: 450px;
+  gap: 2px;
+}
+
+.photo-principale {
+  flex: 4;
+  background-color: red;
+}
+
+.photos-secondaires {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  background-color: blue;
+  gap: 20px;
+}
+
+.photo-secondaire {
+  flex: 1;
+}
