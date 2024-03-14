@@ -1,8 +1,8 @@
 @import "./reset.css";
 @import "./fonts.css";
 @import "./desktop1.css";
-@import "./desktop2.css";
-@import "./tablet.css";
-@import "./phone.css";
+@import "./desktop2.css" screen and (max-width: 1185px);
+@import "./tablet.css" screen and (max-width: 1136px);
+@import "./phone.css" screen and (max-width: 752px);
 
 /* ------ All ------ */

@@ -1,0 +1,26 @@
+.avis,
+.voyages,
+.alertes,
+.bouton-connexion {
+  display: none;
+}
+
+.recherche {
+  display: block;
+}
+
+header .container img {
+  margin: auto;
+  width: 130px;
+}
+
+.container > i {
+  display: block;
+}
+
+nav {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}

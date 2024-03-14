@@ -15,6 +15,7 @@ h1 {
   font-family: TS-Med;
   font-size: 54px;
   font-weight: 500;
+  margin-top: 125px;
 }
 
 h2 {
@@ -39,8 +40,9 @@ section {
 /* --- Container --- */
 
 .container {
-  width: 1094px;
+  width: 1135px;
   margin: auto;
+  padding: 0px 20px;
 }
 
 /* ---------------- */
@@ -84,6 +86,14 @@ menu {
   border-radius: 30px;
   text-align: center;
   padding: 10px;
+}
+
+.recherche {
+  display: none;
+}
+
+.container > i {
+  display: none;
 }
 
 .bouton-connexion:hover {
@@ -130,6 +140,10 @@ nav {
   font-weight: bold;
 }
 
+.ajout {
+  display: none;
+}
+
 .bouton-navigation:hover {
   background-color: black;
   color: white;
@@ -149,7 +163,7 @@ nav {
   display: flex;
   flex-direction: column;
   flex: 3;
-  height: 448px;
+  /* height: 448px; */
   gap: 2px;
 }
 
@@ -286,7 +300,6 @@ nav {
   position: relative;
   background-color: aqua;
   height: 65%;
-  position: relative;
 }
 
 .activite .image > img {

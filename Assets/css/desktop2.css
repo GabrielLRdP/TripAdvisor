@@ -1,0 +1,13 @@
+.ajout {
+  display: flex;
+}
+
+nav {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav > div {
+  flex-basis: calc(25% - 30px);
+  flex-grow: 1;
+}
