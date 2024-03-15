@@ -5,6 +5,7 @@
 body {
   font-family: TS-Reg;
   font-weight: bold;
+  position: relative;
 }
 
 a {
@@ -235,6 +236,7 @@ nav {
 
 .Creer-un-voyage p {
   line-height: 20px;
+  font-size: 13px;
 }
 
 .Creer-un-voyage img {
